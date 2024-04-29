@@ -5,20 +5,20 @@ import streamlit_book as stb
 st.set_page_config(layout="wide")
 
 # Set multipage
-save_answers = False
+save_answers = True
 
-stb.set_book_config(menu_title="App Title",
-                    menu_icon="apple",
+stb.set_book_config(menu_title="LITERA",
+                    menu_icon="clock",
                     options=[
                             "Intro",   
-                            "Multitest", 
+                            "MCTQ", 
                             ], 
                     paths=[
                             "pages/Intro.py", 
-                            "pages/00 Multitest", 
+                            "pages/00 MCTQ", 
                             ],
                     icons=[
-                            "tree", 
+                            "book", 
                             "code", 
                             ],
                     save_answers=save_answers,
